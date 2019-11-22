@@ -1,0 +1,2 @@
+library(BSgenome)
+forgeBSgenomeDataPkg("seed")

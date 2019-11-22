@@ -1,0 +1,18 @@
+Package: BSgenome.Sapiens.Ensembl.3775
+Title: Full genome sequences for Homo Sapiens
+Description: Full genome sequences for Homo Sapiens as provided by Ensembl (release 37.75) and stored in Biostrings objects.
+Version: 1.0
+organism: Homo Sapiens
+common_name: Human
+provider: Ensembl 
+provider_version: 37.75
+release_date: 2019
+release_name: TQT
+source_url: ftp://ftp.ensembl.org/pub/release-75/fasta/homo_sapiens/dna/
+organism_biocview: Homo_Sapiens 
+BSgenomeObjname: Sapiens 
+seqnames: c(1:22, "X", "Y", "MT")
+circ_seqs: "MT"
+SrcDataFiles: from ftp://ftp.ensembl.org/pub/release-75/fasta/homo_sapiens/dna/
+PkgExamples: genome[["1"]] # same as genome[["1"]]
+seqs_srcdir: PATH_TO_SEQS
